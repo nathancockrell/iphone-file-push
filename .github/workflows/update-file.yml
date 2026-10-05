@@ -1,0 +1,36 @@
+name: Update file
+on:
+  workflow_dispatch:
+    inputs:
+      path:
+        description: "File path in repo"
+        required: true
+      content:
+        description: "File contents"
+        required: true
+      message:
+        description: "Commit message"
+        default: "Update from iPhone"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Write, commit, push
+        env:
+          FILE_PATH: ${{ inputs.path }}
+          CONTENT: ${{ inputs.content }}
+          MSG: ${{ inputs.message }}
+        run: |
+          mkdir -p "$(dirname "$FILE_PATH")"
+          printf '%s\n' "$CONTENT" > "$FILE_PATH"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -- "$FILE_PATH"
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "$MSG"
+          git push
