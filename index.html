@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSV & Text Editor</title>
+<style>
+  :root { --bg:#f7f7f5; --fg:#1d2327; --line:#d9d9d4; --accent:#1f6f5c; --panel:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#1a1d1f; --fg:#e8e8e4; --line:#383d40; --accent:#4fb89c; --panel:#23272a; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:1.5rem; background:var(--bg); color:var(--fg);
+         font:16px/1.5 system-ui, sans-serif; }
+  h1 { font-size:1.4rem; margin:0 0 1rem; }
+  h2 { font-size:1.05rem; margin:0; }
+  section { background:var(--panel); border:1px solid var(--line); border-radius:8px;
+            padding:1rem; margin-bottom:1.5rem; max-width:960px; }
+  .bar { display:flex; flex-wrap:wrap; gap:.5rem; align-items:center; margin-bottom:.75rem; }
+  .bar h2 { margin-right:auto; }
+  button { font:inherit; padding:.4rem .8rem; border:1px solid var(--line); border-radius:6px;
+           background:var(--panel); color:var(--fg); cursor:pointer; }
+  button.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  button:focus-visible, input:focus-visible, textarea:focus-visible { outline:2px solid var(--accent); }
+  .filename { font-size:.9rem; opacity:.7; }
+  .table-wrap { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; }
+  th, td { border:1px solid var(--line); padding:0; }
+  th { background:var(--bg); padding:.4rem .6rem; text-align:left; }
+  td input { width:100%; min-width:6rem; border:0; padding:.4rem .6rem; font:inherit;
+             background:transparent; color:inherit; }
+  td.del { width:2.5rem; text-align:center; }
+  textarea { width:100%; min-height:12rem; padding:.6rem; font:14px/1.5 ui-monospace, monospace;
+             background:var(--bg); color:var(--fg); border:1px solid var(--line); border-radius:6px; }
+  .status { min-height:1.5rem; font-size:.9rem; color:var(--accent); }
+  .empty { opacity:.6; padding:.5rem 0; }
+</style>
+</head>
+<body>
+  <h1>CSV & text editor</h1>
+  <div class="status" id="status" role="status"></div>
+
+  <section>
+    <div class="bar">
+      <h2>CSV</h2>
+      <span class="filename">data.csv</span>
+      <button id="csvReload">Reload</button>
+      <button id="csvAddRow">Add row</button>
+      <button id="csvSave" class="primary">Save CSV</button>
+    </div>
+    <div class="table-wrap" id="csvTable"><p class="empty">Loading data.csv…</p></div>
+  </section>
+
+  <section>
+    <div class="bar">
+      <h2>Text</h2>
+      <span class="filename">notes.txt</span>
+      <button id="txtReload">Reload</button>
+      <button id="txtSave" class="primary">Save text</button>
+    </div>
+    <textarea id="txtArea"></textarea>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
