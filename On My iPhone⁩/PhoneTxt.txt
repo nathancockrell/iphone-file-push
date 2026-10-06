@@ -1,45 +1,60 @@
-10/4/26, 23:36,Notes
-10/4/26, 23:38,Text
-10/4/26, 23:41,N
-10/4/26, 23:42,Spotify
-10/4/26, 23:44,Spotify
-10/4/26, 23:46,Drive
-10/4/26, 23:46,C
-10/4/26, 23:46,Drive
-10/4/26, 23:47,T
-10/5/26, 00:00,auto
-10/5/26, 00:00,auto
-10/5/26, 00:01,Spotify
-10/5/26, 00:02,logged Google maps
-10/5/26, 00:05,logged Notes
-10/5/26, 00:13,auto
-10/5/26, 00:14,logged Maps
-10/5/26, 00:14,Drive
-10/5/26, 00:31,logged Nothing
-10/5/26, 00:31,logged Nothing
-10/5/26, 00:32,logged Settings
-10/5/26, 00:48,logged Check
-10/5/26, 00:57,logged Checking
-10/5/26, 01:03,logged Carcinogen
-10/5/26, 01:05,logged Messages
-10/5/26, 01:10,logged Text
-10/5/26, 01:23,logged Messages
-10/5/26, 01:26,logged Shortcuts
-10/5/26, 01:29,Shortcuts
-10/5/26, 01:29,Shortcuts
-10/5/26, 01:30,Close session
-10/5/26, 01:33,Messages
-10/5/26, 01:34,Drive
-10/5/26, 01:34,Spotify
-10/5/26, 01:34,Spotify
-10/5/26, 01:35,Spotify
-10/5/26, 01:37,L
-10/5/26, 01:38,logged L
-10/5/26, 01:38,logged L
-10/5/26, 01:39,Drive
-10/5/26, 01:40,Drive
-10/5/26, 01:41,Drive
-10/5/26, 01:41,logged Drived
-10/5/26, 01:42,logged Drived
-10/5/26, 01:43,auto
-10/5/26, 01:43,auto
+10/5/26, 01:44,logged Drived
+10/5/26, 01:46,Spotify
+10/5/26, 01:56,logged Text
+10/5/26, 02:04,Paycom
+10/5/26, 07:59,logged Time
+10/5/26, 08:25,logged Toggl
+10/5/26, 08:33,logged Psych
+10/5/26, 08:41,Paycom
+10/5/26, 08:42,Paycom
+10/5/26, 08:44,logged Messages
+10/5/26, 08:59,logged Money
+10/5/26, 09:07,logged Wifi
+10/5/26, 09:21,logged Buzz
+10/5/26, 09:25,logged Meritrust
+10/5/26, 10:17,logged Text
+10/5/26, 10:44,logged Messages
+10/5/26, 10:47,Spotify
+10/5/26, 13:00,logged Pc
+10/5/26, 13:07,logged Kansas
+10/5/26, 13:21,logged Time
+10/5/26, 13:32,logged Pauycom
+10/5/26, 13:37,Notes
+10/5/26, 13:38,logged Publish
+10/5/26, 14:34,logged Busz
+10/5/26, 14:35,logged Text
+10/5/26, 14:39,logged Messages
+10/5/26, 14:43,logged Meritrust
+10/5/26, 14:44,Docs
+10/5/26, 14:44,Paycom
+10/5/26, 14:45,logged Shortcuts
+10/5/26, 14:50,auto
+10/5/26, 14:51,logged Sheets
+10/5/26, 14:55,logged Sheets
+10/5/26, 15:34,logged Net worth
+10/5/26, 15:45,logged Maintenance
+10/5/26, 15:46,logged L
+10/5/26, 15:46,Docs
+10/5/26, 15:47,logged L
+10/5/26, 15:47,Spotify
+10/5/26, 15:47,logged Shortcuts
+10/5/26, 15:47,Paycom
+10/5/26, 17:47,auto
+10/5/26, 18:50,Docs
+10/5/26, 18:50,Docs
+10/5/26, 19:02,Phone
+10/5/26, 19:02,Call
+10/5/26, 19:04,Call
+10/5/26, 19:06,L
+10/5/26, 19:08,A
+10/5/26, 19:10,L
+10/5/26, 19:12,Music
+10/5/26, 19:34,J
+10/5/26, 19:43,Dric
+10/5/26, 19:43,Call
+10/5/26, 19:47,Text
+10/5/26, 19:50,Te
+10/5/26, 20:04,Call
+10/5/26, 20:15,File
+10/5/26, 20:16,L
+10/5/26, 20:16,Call alli
